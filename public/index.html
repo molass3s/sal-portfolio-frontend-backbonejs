@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Sal's Portfolio</title>
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div id="users">
+            <form id="addUser" action="#">
+                <div class="margin-bottom-s">
+                    <label for="first-name">First Name: </label>
+                    <input id="first-name" class="text-input" type="text" />
+                </div>
+                <div class="margin-bottom-s">
+                    <label for="middle-initial">Middle Initial: </label>
+                    <input id="middle-initial" class="text-input type="text" />
+                </div>
+                <div class="margin-bottom-s">
+                    <label for="last-name">Last Name: </label>
+                    <input id="last-name" class="text-input type="text" />
+                </div>
+                <div>
+                    <button id="add" class="add-btn">Create User</button>
+                </div>
+            </form>
+        </div>
+
+        <script id="userTemplate" type="text/template">
+            <div class="user-card margin-bottom-s">
+                <label>User</label>
+                <div class="margin-bottom-s">
+                    <%= firstName %> <%= middleInitial %> <%= lastName %>
+                </div>
+
+                <label>Asset Count<label>
+                <div><%= assets.length %></div>
+            </div>
+        
+            <button class="delete-btn">Delete User</button>
+        </script>
+
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="js/lib/underscore-min.js"></script>
+        <script src="js/lib/backbone-min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/models/user.js"></script>
+        <script src="js/collections/users.js"></script>
+        <script src="js/views/userView.js"></script>
+        <script src="js/views/usersView.js"></script>
+    </body>
+</html>

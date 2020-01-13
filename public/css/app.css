@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Set root em and page default font */
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+#users {
+    margin: 2rem;
+}
+
+#addUser {
+    border: 1px solid #eed6d6;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    box-shadow: 3px 5px 4px #d9d9d9;
+    padding: 1.5rem;
+    background-color: #fdfdfd;
+}
+
+.userContainer {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 5px 4px #d9d9d9;
+    padding: 1.5rem;
+    background-color: #fdfdfd;
+    border-radius: 4px;
+    min-width: 225px;
+}
+
+.add-btn {
+    background-color: #1976d2;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #7e7e7e;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #b3b3b3;
+    font-size: 1.05rem;
+}
+
+.delete-btn {
+    background-color: #dc004e;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #7e7e7e;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #b3b3b3;
+    font-size: 1.05rem;
+}
+
+@media screen and (max-width: 400px) {
+    .text-input {
+        width: 150px;
+    }
+}
+
+/*
+    Common spacing classes
+*/
+.margin-around-s {
+    margin: 1rem;
+}
+.margin-around-m {
+    margin: 2rem;
+}
+
+.margin-top-s {
+    margin-top: 1rem;
+}
+.margin-top-m {
+    margin-top: 2rem;
+}
+
+.margin-right-s {
+    margin-right: 1rem;
+}
+.margin-right-m {
+    margin-right: 2rem;
+}
+
+.margin-bottom-s {
+    margin-bottom: 1rem;
+}
+.margin-bottom-m {
+    margin-bottom: 2rem;
+}
+
+.margin-left-s {
+    margin-left: 1rem;
+}
+.margin-left-m {
+    margin-left: 2rem;
+}

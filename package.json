@@ -1,0 +1,23 @@
+{
+  "name": "sal-portfolio-frontend",
+  "version": "1.0.0",
+  "description": "Frontend app for my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sal-vader/sal-portfolio-frontend-backbonejs.git"
+  },
+  "author": "sal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sal-vader/sal-portfolio-frontend-backbonejs/issues"
+  },
+  "homepage": "https://github.com/sal-vader/sal-portfolio-frontend-backbonejs#readme",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "jquery": "^3.4.1"
+  }
+}
