@@ -2,6 +2,4 @@
 // but after the lib JS files.
 let app = {};
 
-$(function() {
-    new app.UsersView();
-});
+$(() => new app.UsersView());
