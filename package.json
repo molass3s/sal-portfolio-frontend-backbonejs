@@ -18,6 +18,6 @@
   "homepage": "https://github.com/sal-vader/sal-portfolio-frontend-backbonejs#readme",
   "dependencies": {
     "backbone": "^1.4.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
